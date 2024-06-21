@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newbees-dev-8ae64-authRole",
+      "UnauthRoleArn": "arn:aws:iam::381492268886:role/amplify-newbees-dev-8ae64-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::381492268886:role/amplify-newbees-dev-8ae64-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-newbees-dev-8ae64-deployment",
+      "UnauthRoleName": "amplify-newbees-dev-8ae64-unauthRole",
+      "StackName": "amplify-newbees-dev-8ae64",
+      "StackId": "arn:aws:cloudformation:us-east-1:381492268886:stack/amplify-newbees-dev-8ae64/e79caa80-2963-11ef-bc8d-1266d53bf52d",
+      "AmplifyAppId": "d3prgoech8se78"
+    },
+    "categories": {
+      "auth": {
+        "newbees14f38747": {}
+      }
+    }
+  }
+}
