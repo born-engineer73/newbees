@@ -260,6 +260,9 @@ const Level2 = ({ route }) => {
             const userAttributes = user.attributes;
             const userScore = userAttributes['custom:score'] ? parseInt(userAttributes['custom:score'], 10) : 0;
             setScore(userScore);
+            const result = await Auth.updateUserAttributes(user, {
+                'custom:level': '2', // Ensure the value is a string
+            });
         } catch (error) {
             console.error('Error fetching user score:', error);
         }
@@ -410,6 +413,9 @@ const Level2 = ({ route }) => {
                         </>
                     )}
                     <Text style={styles.scoreText}>Score: {score}</Text>
+                    <View style={styles.buttonContainer}>
+                        <Button title="Home Page" onPress={handleNextLevel} />
+                    </View>
                 </>
             ) : (
                 <Text>Loading questions...</Text>
@@ -481,3 +487,5 @@ const styles = StyleSheet.create({
 });
 
 export default Level2;
+
+

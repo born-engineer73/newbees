@@ -176,7 +176,9 @@ const ProfileSetup = () => {
         'custom:age': age,
         'custom:heightFt': heightFeet, // Storing height in feet
         'custom:heightIn': heightInches, // Storing height in inches
-        'custom:profileSetupComplete': 'true'
+        'custom:profileSetupComplete': 'true',
+        'custom:level':'1',
+        'custom:score': '0',
       });
       Alert.alert('Profile Updated', 'Your profile was successfully updated.');
       navigation.navigate('Home'); // Navigate to the next profile setup step

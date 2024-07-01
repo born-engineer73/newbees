@@ -266,7 +266,7 @@ function App() {
       </Stack.Navigator>
     </NavigationContainer>
     // <View style={styles.container}>
-    //   <ProfileSetup/>
+    //   <HomeScreen/>
     // </View>
   );
 }

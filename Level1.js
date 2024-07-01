@@ -71,13 +71,13 @@
 //     const handleOptionSelect = (option, index) => {
 //         setSelectedOption(option);
 //         const newOptionStyles = [...optionStyles];
-    
+
 //         if (option === questions[questionIndex].correctAnswer) {
 //             newOptionStyles[index] = styles.correctOption;
 //             setCorrectOptionIndex(index);
 //             setShowResult(true);
 //             setShowTryAgain(false);
-    
+
 //             if (questionIndex === questions.length - 1) { // Check if it's the last question
 //                 setQuizComplete(true); // End the quiz correctly
 //                 setShowNextButton(false); // Don't show next button if it's the last question
@@ -88,12 +88,12 @@
 //             newOptionStyles[index] = styles.incorrectOption;
 //             setShowResult(false);
 //             setShowTryAgain(true);
-    
+
 //             setTimeout(() => {
 //                 newOptionStyles[index] = styles.option; // Reset specific incorrect option
 //                 setOptionStyles(newOptionStyles);
 //                 setShowTryAgain(false);
-    
+
 //                 if (questionIndex === questions.length - 1) { // Check if it's the last question
 //                     // This is where you ensure it does not set the quiz complete if the last answer is wrong
 //                     setShowNextButton(false); // Ensure next button isn't shown
@@ -102,7 +102,7 @@
 //         }
 //         setOptionStyles(newOptionStyles);
 //     };
-    
+
 //     const handleNextQuestion = () => {
 //         if (questionIndex < questions.length - 1) {
 //             setQuestionIndex(questionIndex + 1);
@@ -282,6 +282,7 @@ function shuffleArray(array) {
 }
 
 const Level1 = ({ route }) => {
+    
     const [questionIndex, setQuestionIndex] = useState(0);
     const [selectedOption, setSelectedOption] = useState(null);
     const [showResult, setShowResult] = useState(false);
@@ -306,6 +307,9 @@ const Level1 = ({ route }) => {
             const userAttributes = user.attributes;
             const userScore = userAttributes['custom:score'] ? parseInt(userAttributes['custom:score'], 10) : 0;
             setScore(userScore);
+            const result = await Auth.updateUserAttributes(user, {
+                'custom:level': '1', // Ensure the value is a string
+            });
         } catch (error) {
             console.error('Error fetching user score:', error);
         }
@@ -568,3 +572,4 @@ const styles = StyleSheet.create({
 });
 
 export default Level1;
+

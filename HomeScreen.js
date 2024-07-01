@@ -1,24 +1,28 @@
-import React, {useState, useEffect} from 'react';
-import { View, Text, TouchableOpacity, Pressable,StyleSheet, ScrollView, Image, TextInput } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, Text, TouchableOpacity, Pressable, StyleSheet, ScrollView, Image, TextInput, Alert } from 'react-native';
 import logo from './assets/img/logo.png';
 import profile from './assets/img/profile.png';
 import home from './assets/img/home.png';
 import plan from './assets/img/plan.jpg';
 import more from './assets/img/more.png';
 import { Auth } from 'aws-amplify';
+
 const HomeScreen = ({ navigation }) => {
     const [userAttributes, setUserAttributes] = useState({
         nickname: '',
-        phoneNumber: ''
+        phoneNumber: '',
+        level: '1', // Initialize level with a default value
     });
     const [goals, setGoals] = useState('');
+
     const fetchUserDetails = async () => {
         try {
             const user = await Auth.currentAuthenticatedUser();
             const { attributes } = user;
             setUserAttributes({
                 nickname: attributes.nickname || '',
-                phoneNumber: attributes.phone_number || ''
+                phoneNumber: attributes.phone_number || '',
+                level: attributes['custom:level'] || '1', // Fetch level from user attributes
             });
         } catch (error) {
             console.log('error fetching user details: ', error);
@@ -29,28 +33,43 @@ const HomeScreen = ({ navigation }) => {
     useEffect(() => {
         fetchUserDetails();
     }, []);
+
+    const handleQuizStart = () => {
+        Alert.alert(
+            "Resume Quiz",
+            "Would you like to resume the quiz from where you left off or start from the beginning?",
+            [
+                {
+                    text: "Resume",
+                    onPress: () => navigation.navigate(`Quiz-Level ${userAttributes.level}`, { resume: true }),
+                },
+                {
+                    text: "Start Over",
+                    onPress: () => navigation.navigate('Quiz-Level 1', { resume: false }),
+                },
+            ]
+        );
+    };
+
     const signOut = async () => {
         try {
-          await Auth.signOut({ global: true });
+            await Auth.signOut({ global: true });
         } catch (error) {
-          console.log('error signing out: ', error);
+            console.log('error signing out: ', error);
         }
-      };
+    };
+
     return (
         <ScrollView style={styles.container}>
             <View style={styles.topBar}>
                 <Image source={profile} style={styles.profilePic} />
                 <View style={styles.header}>
-
-                    {/* <Text style={styles.headerText}>Vaibhav</Text>
-                    <Text style={styles.headerText}>7755057687</Text> */}
                     <Text style={styles.headerText}>{userAttributes.nickname}</Text>
                     <Text style={styles.headerText}>{userAttributes.phoneNumber}</Text>
                 </View>
                 <Pressable style={styles.button} onPress={() => signOut()}>
-          <Text style={styles.buttonText}>Sign out</Text>
-        </Pressable>
-                {/* <Image source={logo} style={styles.logo} /> */}
+                    <Text style={styles.buttonText}>Sign out</Text>
+                </Pressable>
             </View>
             <View style={styles.menuContainer}>
                 <TouchableOpacity style={styles.menuButton} onPress={() => navigation.navigate('HealthScan')}>
@@ -59,7 +78,7 @@ const HomeScreen = ({ navigation }) => {
                 <TouchableOpacity style={styles.menuButton} onPress={() => navigation.navigate('DietPlan')}>
                     <Text>Diet Plan</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.menuButton} onPress={() => navigation.navigate('Quiz-Level 1')}>
+                <TouchableOpacity style={styles.menuButton} onPress={handleQuizStart}>
                     <Text>Quiz</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.menuButton} onPress={() => navigation.navigate('ConnectDr')}>
@@ -67,15 +86,12 @@ const HomeScreen = ({ navigation }) => {
                 </TouchableOpacity>
             </View>
             <Text style={styles.planHeader}>My Plan</Text>
-            {/* <View style={styles.planContainer}></View> */}
             <TextInput
-            style={styles.planContainer}
-            onChangeText={setGoals}
-            value={goals}
-            placeholder="Write your daily goals here"
-            // Optional: Uncomment the next line to make the keyboard automatically dismiss when submitting
-            // onSubmitEditing={Keyboard.dismiss}
-        />
+                style={styles.planContainer}
+                onChangeText={setGoals}
+                value={goals}
+                placeholder="Write your daily goals here"
+            />
             <View style={styles.navBar}>
                 <TouchableOpacity style={styles.navItem}>
                     <Image source={home} style={styles.icon} />
@@ -95,6 +111,7 @@ const HomeScreen = ({ navigation }) => {
 };
 
 export default HomeScreen;
+
 
 const styles = StyleSheet.create({
     container: {

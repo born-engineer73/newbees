@@ -1,0 +1,580 @@
+{
+  "PCOD": {
+    "Level1": [
+      {
+        "question": "What is the focus of Lt. Col. Dr. Kim Hopkins' postdoctoral training mentioned in the content?",
+        "options": [
+          "Studying Polycystic Ovary Syndrome",
+          "Conducting research on diabetes",
+          "Developing a new medical treatment",
+          "Exploring cardiovascular diseases"
+        ],
+        "correctAnswer": "Studying Polycystic Ovary Syndrome"
+      },
+      {
+        "question": "Who are the special volunteers acknowledged for their role in compiling the information in the booklet?",
+        "options": [
+          "Dr. Samia Noursi and Lt. Col. Dr. Kim Hopkins",
+          "Nathan Dinh and Bani Saluja",
+          "University of Richmond and University of Maryland",
+          "Dr. Kim Hopkins and Dr. Samia Noursi"
+        ],
+        "correctAnswer": "Nathan Dinh and Bani Saluja"
+      },
+      {
+        "question": "In which section of the booklet can health care providers and researchers find further information about PCOS?",
+        "options": [
+          "Section V",
+          "Section VI",
+          "Section IV",
+          "Section VII"
+        ],
+        "correctAnswer": "Section VI"
+      },
+      {
+        "question": "What is one of the key methods used to define and diagnose PCOS?",
+        "options": [
+          "Blood test only",
+          "Combination of signs and symptoms",
+          "Genetic testing",
+          "Physical examination only"
+        ],
+        "correctAnswer": "Combination of signs and symptoms"
+      },
+      {
+        "question": "According to the provided content, what percentage of women with PCOS are estimated to remain undiagnosed in primary care?",
+        "options": [
+          "Less than 30%",
+          "At least 70%",
+          "Around 50%",
+          "Over 90%"
+        ],
+        "correctAnswer": "At least 70%"
+      },
+      {
+        "question": "Which medical journal is mentioned in the content as a reference for screening for diabetes and cardiometabolic disease in women with PCOS?",
+        "options": [
+          "The Lancet",
+          "The New England Journal of Medicine",
+          "The British Journal of Diabetes & Vascular Disease",
+          "The Journal of Clinical Endocrinology & Metabolism"
+        ],
+        "correctAnswer": "The British Journal of Diabetes & Vascular Disease"
+      },
+      {
+        "question": "What is PCOS primarily defined by?",
+        "options": [
+          "Hyperandrogenism",
+          "Presence of ovarian cysts",
+          "Ovarian dysfunction",
+          "Polycystic ovarian morphology"
+        ],
+        "correctAnswer": "Hyperandrogenism"
+      },
+      {
+        "question": "How many diagnostic criteria are required to define PCOS according to the Rotterdam criteria?",
+        "options": [
+          "3",
+          "2",
+          "1",
+          "4"
+        ],
+        "correctAnswer": "2"
+      },
+      {
+        "question": "Which organization endorsed the Rotterdam criteria for PCOS in 2012?",
+        "options": [
+          "American Society for Reproductive Medicine (ASRM)",
+          "National Institutes of Health (NIH)",
+          "European Society of Human Reproduction and Embryology (ESHRE)",
+          "Androgen Excess and PCOS Society (AE-PCOS)"
+        ],
+        "correctAnswer": "European Society of Human Reproduction and Embryology (ESHRE)"
+      },
+      {
+        "question": "What is the term for the condition characterized by the complete absence of menstruation?",
+        "options": [
+          "Amenorrhea",
+          "Oligomenorrhea",
+          "Menorrhagia",
+          "Menstrual Disorders"
+        ],
+        "correctAnswer": "Amenorrhea"
+      },
+      {
+        "question": "What are some of the health implications associated with PCOS?",
+        "options": [
+          "Psychological issues only",
+          "Metabolic issues only",
+          "Dermatological issues only",
+          "Reproductive issues only"
+        ],
+        "correctAnswer": "Metabolic issues only"
+      },
+      {
+        "question": "What can be observed in a transvaginal ultrasound of a woman with PCOS?",
+        "options": [
+          "Normal ovary and enlarged uterus",
+          "Polycystic ovaries and normal uterus",
+          "Enlarged ovary and excessive follicles",
+          "Excessive follicles and enlarged uterus"
+        ],
+        "correctAnswer": "Enlarged ovary and excessive follicles"
+      },
+      {
+        "question": "Which area of a woman's life is NOT affected by PCOS according to the content?",
+        "options": [
+          "Sleep",
+          "Reproductive health",
+          "Dermatological health",
+          "Metabolic health"
+        ],
+        "correctAnswer": "Sleep"
+      },
+      {
+        "question": "What is the main marker for diagnosing PCOS in adolescents?",
+        "options": [
+          "Hyperandrogenemia",
+          "Hirsutism",
+          "Irregular menstrual cycles",
+          "Endometrial cancer"
+        ],
+        "correctAnswer": "Hyperandrogenemia"
+      },
+      {
+        "question": "What is the primary issue for women at reproductive ages with PCOS?",
+        "options": [
+          "Acne",
+          "Fertility issues",
+          "Menstrual irregularity",
+          "Breast cancer risk"
+        ],
+        "correctAnswer": "Fertility issues"
+      },
+      {
+        "question": "What health risk is significantly increased in older women with PCOS compared to those without PCOS?",
+        "options": [
+          "Diabetes",
+          "Ovarian cancer",
+          "Endometrial cancer",
+          "Breast cancer"
+        ],
+        "correctAnswer": "Diabetes"
+      },
+      {
+        "question": "How can women potentially reduce the risk of aggravating PCOS symptoms related to diet?",
+        "options": [
+          "Limiting inflammatory foods like dairy products and foods high in glycemic load",
+          "Eating more gluten-containing foods",
+          "Increasing consumption of sugary desserts",
+          "Avoiding all dairy products"
+        ],
+        "correctAnswer": "Limiting inflammatory foods like dairy products and foods high in glycemic load"
+      },
+      {
+        "question": "When do endocrine-disrupting chemicals pose the greatest risk for female reproductive health issues, including PCOS?",
+        "options": [
+          "During menopause",
+          "During adolescence",
+          "During prenatal and early postnatal development",
+          "During adulthood"
+        ],
+        "correctAnswer": "During prenatal and early postnatal development"
+      },
+      {
+        "question": "What is one of the lifestyle changes recommended for managing PCOS symptoms?",
+        "options": [
+          "Consuming foods, trans fats, and saturated fats",
+          "Increasing smoking habits",
+          "Eating a high-fiber, low-sugar diet with lots of vegetables, whole grains, and fruits",
+          "Avoiding daily physical activity"
+        ],
+        "correctAnswer": "Eating a high-fiber, low-sugar diet with lots of vegetables, whole grains, and fruits"
+      },
+      {
+        "question": "Which medication is suggested for managing PCOS symptoms related to hirsutism, acne, and difficulty conceiving?",
+        "options": [
+          "Lipid-lowering agents",
+          "Inositol supplement",
+          "Metformin",
+          "Low-androgen oral contraceptives"
+        ],
+        "correctAnswer": "Inositol supplement"
+      },
+      {
+        "question": "What is one of the economic impacts associated with PCOS treatment?",
+        "options": [
+          "Cost of treating type 2 diabetes",
+          "Cost of treating osteoporosis",
+          "Cost of treating hypertension",
+          "Cost of treating common cold"
+        ],
+        "correctAnswer": "Cost of treating type 2 diabetes"
+      },
+      {
+        "question": "What is one of the critical gaps remaining in the understanding of PCOS mentioned in the content?",
+        "options": [
+          "Connections of comorbidities to PCOS",
+          "Prevalence of PCOS in different age groups",
+          "Treatment options for PCOS",
+          "Effects of PCOS on men's health"
+        ],
+        "correctAnswer": "Connections of comorbidities to PCOS"
+      },
+      {
+        "question": "Which organization mentioned in the content is a nonprofit support and advocacy organization for women and girls with polycystic ovary syndrome?",
+        "options": [
+          "American Society for Reproductive Medicine",
+          "PCOS Challenge: The National Polycystic Ovary Syndrome Association",
+          "Androgen Excess and PCOS Society",
+          "American College of Obstetricians and Gynecologists"
+        ],
+        "correctAnswer": "PCOS Challenge: The National Polycystic Ovary Syndrome Association"
+      },
+      {
+        "question": "What is one of the serious effects that women with PCOS are at higher risk for, as mentioned in the content?",
+        "options": [
+          "Mental health disorders such as anxiety and depression",
+          "Vision problems",
+          "Bone fractures",
+          "Skin rashes"
+        ],
+        "correctAnswer": "Mental health disorders such as anxiety and depression"
+      },
+      {
+        "question": "What is the term for the absence of a woman's monthly menstrual period?",
+        "options": [
+          "Cardiovascular disease",
+          "Amenorrhea",
+          "Androgen",
+          "Cyst"
+        ],
+        "correctAnswer": "Amenorrhea"
+      },
+      {
+        "question": "Which hormone promotes the development and maintenance of male sex characteristics?",
+        "options": [
+          "Estrogen",
+          "Dyslipidemia",
+          "Androgen",
+          "Etiology"
+        ],
+        "correctAnswer": "Androgen"
+      },
+      {
+        "question": "What does dyslipidemia refer to?",
+        "options": [
+          "Problems with the heart and blood vessels",
+          "Absence of menstrual period",
+          "High levels of lipids in the blood",
+          "A closed, saclike pocket of tissue"
+        ],
+        "correctAnswer": "High levels of lipids in the blood"
+      }
+    ],
+    "Level2": [
+      {
+        "question": "The presence of excessive _________ on various parts of the body is a common symptom of PCOS.",
+        "options": [
+          "hair",
+          "muscle",
+          "skin elasticity",
+          "bone density"
+        ],
+        "correctAnswer": "hair"
+      },
+      {
+        "question": "PCOS is often associated with an increased risk of _________.",
+        "options": [
+          "infertility",
+          "hypertension",
+          "skin cancer",
+          "hair loss"
+        ],
+        "correctAnswer": "infertility"
+      },
+      {
+        "question": "Women with PCOS may have a higher incidence of _________ due to insulin resistance.",
+        "options": [
+          "diabetes",
+          "anemia",
+          "thrombosis",
+          "hypothyroidism"
+        ],
+        "correctAnswer": "diabetes"
+      },
+      {
+        "question": "A common treatment for managing PCOS symptoms includes lifestyle changes such as improved diet and _________.",
+        "options": [
+          "exercise",
+          "sun exposure",
+          "meditation",
+          "supplement intake"
+        ],
+        "correctAnswer": "exercise"
+      },
+      {
+        "question": "_________ metabolic abnormalities caused by PCOS that increase the risk of type 2 diabetes and cardiovascular disease.",
+        "options": [
+          "Increased abdominal fat and insulin resistance",
+          "High muscle mass and decreased cholesterol",
+          "Low blood pressure and high protein intake",
+          "Increased calcium absorption and decreased glucose levels"
+        ],
+        "correctAnswer": "Increased abdominal fat and insulin resistance"
+      },
+      {
+        "question": "__________ recommended by the CDC to manage PCOS symptoms?",
+        "options": [
+          "150 minutes of moderate-intensity exercise per week",
+          "30 minutes of vigorous exercise daily",
+          "200 minutes of light exercise monthly",
+          "75 minutes of high-intensity exercise weekly"
+        ],
+        "correctAnswer": "150 minutes of moderate-intensity exercise per week"
+      }
+    ]
+  },
+  "Diabetics": {
+    "Level1": [
+      {
+        "question": "Which medical journal is mentioned in the content as a reference for screening for diabetes and cardiometabolic disease in women with PCOS?",
+        "options": [
+          "The Lancet",
+          "The New England Journal of Medicine",
+          "The British Journal of Diabetes & Vascular Disease",
+          "The Journal of Clinical Endocrinology & Metabolism"
+        ],
+        "correctAnswer": "The British Journal of Diabetes & Vascular Disease"
+      }
+    ],
+    "Level2": [
+      {
+        "question": "Women with PCOS may have a higher incidence of _________ due to insulin resistance.",
+        "options": [
+          "diabetes",
+          "anemia",
+          "thrombosis",
+          "hypothyroidism"
+        ],
+        "correctAnswer": "diabetes"
+      },
+      {
+        "question": "__________ metabolic abnormalities caused by PCOS that increase the risk of type 2 diabetes and cardiovascular disease.",
+        "options": [
+          "Increased abdominal fat and insulin resistance",
+          "High muscle mass and decreased cholesterol",
+          "Low blood pressure and high protein intake",
+          "Increased calcium absorption and decreased glucose levels"
+        ],
+        "correctAnswer": "Increased abdominal fat and insulin resistance"
+      }
+    ]
+  },
+  "General": {
+    "Level1": [
+    {
+      "question": "What is the common term used for the sensation of a baby moving inside the womb?",
+      "options": [
+        "Flutter",
+        "Kick",
+        "Wiggle",
+        "Twist"
+      ],
+      "correctAnswer": "Kick"
+    },
+    {
+      "question": "How many weeks does a full-term pregnancy typically last?",
+      "options": [
+        "36 weeks",
+        "38 weeks",
+        "40 weeks",
+        "42 weeks"
+      ],
+      "correctAnswer": "40 weeks"
+    },
+    {
+      "question": "What is the name for the phenomenon where some women experience nausea and vomiting during pregnancy?",
+      "options": [
+        "Morning Sickness",
+        "Nighttime Nausea",
+        "All-day Sickness",
+        "Pregnancy Blues"
+      ],
+      "correctAnswer": "Morning Sickness"
+    },
+    {
+      "question": "During which trimester does the baby develop fingerprints?",
+      "options": [
+        "First trimester",
+        "Second trimester",
+        "Third trimester",
+        "After birth"
+      ],
+      "correctAnswer": "Second trimester"
+    },
+    {
+      "question": "What is the term for the fluid-filled sac that surrounds and protects the developing baby in the womb?",
+      "options": [
+        "Amniotic sac",
+        "Placenta",
+        "Umbilical cord",
+        "Embryo pouch"
+      ],
+      "correctAnswer": "Amniotic sac"
+    },
+    {
+      "question": "What percentage of babies are born on their actual due date?",
+      "options": [
+        "10%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "correctAnswer": "10%"
+    },
+    {
+      "question": "What is the common term for the line that may appear on a pregnant woman's belly due to hormonal changes?",
+      "options": [
+        "Pregnancy line",
+        "Belly stripe",
+        "Stretch mark",
+        "Linea nigra"
+      ],
+      "correctAnswer": "Linea nigra"
+    },
+    {
+      "question": "What is the medical term for giving birth to twins?",
+      "options": [
+        "Bifurcation",
+        "Dual birth",
+        "Twinning",
+        "Twins delivery"
+      ],
+      "correctAnswer": "Twinning"
+    },
+    {
+      "question": "What is the average weight gain recommended during pregnancy for a woman of normal weight?",
+      "options": [
+        "10-15 pounds",
+        "20-30 pounds",
+        "30-40 pounds",
+        "50-60 pounds"
+      ],
+      "correctAnswer": "25-35 pounds"
+    },
+    {
+      "question": "Which month is celebrated as National Pregnancy Awareness Month?",
+      "options": [
+        "March",
+        "May",
+        "September",
+        "December"
+      ],
+      "correctAnswer": "May"
+    }
+  ],
+    "Level2": [
+    {
+      "question": "_______ is the most common pregnancy craving reported by women.",
+      "options": [
+        "Pickles and ice cream",
+        "Chocolate and peanut butter",
+        "Spicy foods",
+        "Fruit and yogurt"
+      ],
+      "correctAnswer": "Pickles and ice cream"
+    },
+    {
+      "question": "Number of bones in a newborn baby's body is _______.",
+      "options": [
+        "150",
+        "206",
+        "270",
+        "300"
+      ],
+      "correctAnswer": "206"
+    },
+    {
+      "question": "_______ is a common term for a baby born before 37 weeks of pregnancy.",
+      "options": [
+        "Term baby",
+        "Preterm baby",
+        "Full-term baby",
+        "Late-term baby"
+      ],
+      "correctAnswer": "Preterm baby"
+    },
+    {
+      "question": "_______ is the term for a pregnancy complication characterized by high blood pressure and signs of damage to another organ system, most often the liver and kidneys.",
+      "options": [
+        "Preeclampsia",
+        "Gestational diabetes",
+        "Hyperemesis gravidarum",
+        "Ectopic pregnancy"
+      ],
+      "correctAnswer": "Preeclampsia"
+    },
+    {
+      "question": "_______ is important for preventing neural tube defects when taken before and during early pregnancy.",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Folic acid"
+      ],
+      "correctAnswer": "Folic acid"
+    },
+    {
+      "question": "_______ is the term for the process of the baby descending into the pelvis in preparation for birth.",
+      "options": [
+        "Fetal rotation",
+        "Pelvic engagement",
+        "Cervical dilation",
+        "Crowning"
+      ],
+      "correctAnswer": "Pelvic engagement"
+    },
+    {
+      "question": "_______ hormone is often referred to as the 'pregnancy hormone' and is responsible for maintaining pregnancy and preparing the body for childbirth.",
+      "options": [
+        "Estrogen",
+        "Progesterone",
+        "Testosterone",
+        "Prolactin"
+      ],
+      "correctAnswer": "Progesterone"
+    },
+    {
+      "question": "_______ is the term for the thick, yellowish fluid that a baby passes during the first few days after birth, rich in antibodies and nutrients.",
+      "options": [
+        "Colostrum",
+        "Mucus plug",
+        "Meconium",
+        "Lanugo"
+      ],
+      "correctAnswer": "Colostrum"
+    },
+    {
+      "question": "_______ position is considered the optimal fetal position for birth.",
+      "options": [
+        "Breech",
+        "Transverse",
+        "Occiput posterior",
+        "Vertex"
+      ],
+      "correctAnswer": "Vertex"
+    },
+    {
+      "question": "_______ is the term for the process of the uterus returning to its normal size and position after childbirth.",
+      "options": [
+        "Involution",
+        "Regression",
+        "Contraction",
+        "Restoration"
+      ],
+      "correctAnswer": "Involution"
+    }
+  ]
+  }
+}
